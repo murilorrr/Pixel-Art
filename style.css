@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 40px;
+  background-color: rgb(50, 50, 50);
+  color: blanchedalmond;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+h1 {
+  box-shadow: 2px 3px 8px 2px rgba(0, 0, 0, 0.85);
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 1in;
+  padding: 10px;
+}
+
+section {
+  text-align: center;
+  padding: 20px 1px 50px;
+}
+
+ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul #lista-de-cor {
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+  display: inline-block;
+}
+
+input {
+  height: 1.7em;
+  text-align: center;
+  border-radius: 20px;
+  width: 100px;
+  justify-content: center;
+  top: 50%;
+  box-shadow: 2px 3px 8px 2px rgba(0, 0, 0, 0.85);
+}
+
+.color {
+  display: inline-block;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin-right: 10px;
+  transition: 0.5s;
+  box-shadow: 2px 3px 8px 2px rgba(0, 0, 0, 0.85);
+
+}
+
+.color:hover {
+  transform: scale(1.8);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pixel {
+  display: inline-block;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.pixel:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.selected {
+  animation: bounce-1 2s cubic-bezier(0.23, 1, 0.320, 1) 0.5s infinite;
+}
+
+@keyframes bounce-1 {
+
+  0% { transform: translateY(0); }
+
+  5% { transform: translateY(20px);}
+
+  10% { transform: translateY(-20px); }
+
+  20% { transform: translateY(20px); }
+
+  30% { transform: translateY(-20px); }
+
+  40% { transform: translateY(20px); }
+
+  50% { transform: translateY(-20px); }
+  
+  100% { transform: translateY(0); }
+}
+
+button {
+  padding: 5px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: rgb(252, 248, 241);
+  background-color: rgb(25, 34, 41);
+  box-shadow: 2px 3px 8px 2px rgba(0, 0, 0, 0.85);
+}
+
+#pixel-board {
+  border-radius: 40px;
+  border: rgb(50, 50, 50);
+  background-color: rgb(63, 61, 61);
+}
