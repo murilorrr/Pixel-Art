@@ -9,7 +9,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e
 
 - Manipular o Javascript
 
--Link do repositório <a src='https://pixel-art-murilorsv14.vercel.app/'>Pixel app</a>
+-Link do repositório <a href='https://pixel-art-murilorsv14.vercel.app/'> Pixel app </a>
 
 
 ## Requisitos Obrigatórios:
